@@ -14,7 +14,7 @@ class MahasiswaController extends Controller
      */
     public function index()
     {
-        //
+      return view('index');
     }
 
     /**
@@ -24,7 +24,7 @@ class MahasiswaController extends Controller
      */
     public function create()
     {
-        //
+        return view('layout.create');
     }
 
     /**
